@@ -10,7 +10,8 @@ class AlienInvasion:
     def __init__(self):
         """Initialize the game and create game resources"""
         pygame.init()   
-        self.settings = Settings()
+        self.settings = Settings() #here self.settings is an instance of Settings class 
+        
         
         
         self.clock = pygame.time.Clock()
